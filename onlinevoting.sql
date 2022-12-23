@@ -84,10 +84,7 @@ CREATE TABLE IF NOT EXISTS `groupdata` (
 --
 
 INSERT INTO `groupdata` (`id`, `username`, `mobile`, `password`, `photo`, `standard`, `status`, `votes`, `age`, `age_bracket`) VALUES
-(5, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen'),
-(2, 'YSRCP PARTY', '1234567890', '121', 'YSRCP-fan11651898715.jpg', 'group', 0, 0, 25, 'Adult'),
-(3, 'TDP PARTY', '1234567891', '111', 'download.jfif', 'group', 0, 0, 40, 'Adult'),
-(4, 'JSP PARTY', '1234567892', '123', 'Jana_Sena_Party_Flag.png', 'group', 0, 0, 52, 'Senior Citizen');
+(1, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen');
 
 -- --------------------------------------------------------
 
@@ -115,20 +112,7 @@ CREATE TABLE IF NOT EXISTS `userdata` (
 --
 
 INSERT INTO `userdata` (`id`, `username`, `mobile`, `password`, `photo`, `standard`, `status`, `votes`, `age`, `age_bracket`) VALUES
-(1, 'YSRCP PARTY', '1234567890', '121', 'YSRCP-fan11651898715.jpg', 'group', 0, 1, 25, 'Adult'),
-(2, 'TDP PARTY', '1234567891', '111', 'download.jfif', 'group', 1, 3, 40, 'Adult'),
-(3, 'JSP PARTY', '1234567892', '123', 'Jana_Sena_Party_Flag.png', 'group', 0, 2, 52, 'Senior Citizen'),
-(4, 'charan', '1234567893', '131', 'WhatsApp Image 2022-11-28 at 1.23.35 AM.jpeg', 'voter', 1, 0, 20, 'Adult'),
-(5, 'kumar', '1234567894', '143', 'WhatsApp Image 2022-11-28 at 1.26.34 AM.jpeg', 'voter', 1, 0, 19, 'Adult'),
-(6, 'rakshit', '1234567895', '141', 'WhatsApp Image 2022-11-28 at 1.28.02 AM.jpeg', 'voter', 1, 0, 19, 'Adult'),
-(7, 'lohit', '1234567896', '151', 'WhatsApp Image 2022-11-28 at 1.30.34 AM.jpeg', 'voter', 1, 0, 21, 'Adult'),
-(8, 'nishant suri', '1234567897', '161', 'WhatsApp Image 2022-11-28 at 1.29.43 AM.jpeg', 'voter', 1, 0, 25, 'Adult'),
-(9, 'allu arjun', '1234567898', '171', 'WhatsApp Image 2022-11-28 at 1.33.03 AM.jpeg', 'voter', 0, 0, 54, 'Senior Citizen'),
-(10, 'rahul', '1234567899', '181', 'WhatsApp Image 2022-11-28 at 1.34.14 AM.jpeg', 'voter', 0, 0, 56, 'Senior Citizen'),
-(11, 'kolluru ', '1234567801', '191', 'WhatsApp Image 2022-11-28 at 1.34.48 AM.jpeg', 'voter', 0, 0, 78, 'Senior Citizen'),
-(12, 'akash', '1234567802', '101', 'WhatsApp Image 2022-11-28 at 1.37.21 AM.jpeg', 'voter', 0, 0, 20, 'Adult'),
-(13, 'debarshi', '1234567803', '182', 'WhatsApp Image 2022-11-28 at 1.38.32 AM.jpeg', 'voter', 0, 0, 56, 'Senior Citizen'),
-(14, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen');
+(1, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen');
 
 --
 -- Triggers `userdata`
@@ -179,20 +163,7 @@ CREATE TABLE IF NOT EXISTS `votedata` (
 --
 
 INSERT INTO `votedata` (`id`, `username`, `mobile`, `password`, `photo`, `standard`, `status`, `votes`, `age`, `age_bracket`) VALUES
-(1, 'YSRCP PARTY', '1234567890', '121', 'YSRCP-fan11651898715.jpg', 'group', 0, 0, 25, 'Adult'),
-(2, 'TDP PARTY', '1234567891', '111', 'download.jfif', 'group', 0, 0, 40, 'Adult'),
-(3, 'JSP PARTY', '1234567892', '123', 'Jana_Sena_Party_Flag.png', 'group', 0, 0, 52, 'Senior Citizen'),
-(4, 'charan', '1234567893', '131', 'WhatsApp Image 2022-11-28 at 1.23.35 AM.jpeg', 'voter', 0, 0, 20, 'Adult'),
-(5, 'kumar', '1234567894', '143', 'WhatsApp Image 2022-11-28 at 1.26.34 AM.jpeg', 'voter', 0, 0, 19, 'Adult'),
-(6, 'rakshit', '1234567895', '141', 'WhatsApp Image 2022-11-28 at 1.28.02 AM.jpeg', 'voter', 0, 0, 19, 'Adult'),
-(7, 'lohit', '1234567896', '151', 'WhatsApp Image 2022-11-28 at 1.30.34 AM.jpeg', 'voter', 0, 0, 21, 'Adult'),
-(8, 'nishant suri', '1234567897', '161', 'WhatsApp Image 2022-11-28 at 1.29.43 AM.jpeg', 'voter', 0, 0, 25, 'Adult'),
-(9, 'allu arjun', '1234567898', '171', 'WhatsApp Image 2022-11-28 at 1.33.03 AM.jpeg', 'voter', 0, 0, 54, 'Senior Citizen'),
-(10, 'rahul', '1234567899', '181', 'WhatsApp Image 2022-11-28 at 1.34.14 AM.jpeg', 'voter', 0, 0, 56, 'Senior Citizen'),
-(11, 'kolluru ', '1234567801', '191', 'WhatsApp Image 2022-11-28 at 1.34.48 AM.jpeg', 'voter', 0, 0, 78, 'Senior Citizen'),
-(12, 'akash', '1234567802', '101', 'WhatsApp Image 2022-11-28 at 1.37.21 AM.jpeg', 'voter', 0, 0, 20, 'Adult'),
-(13, 'debarshi', '1234567803', '182', 'WhatsApp Image 2022-11-28 at 1.38.32 AM.jpeg', 'voter', 0, 0, 56, 'Senior Citizen'),
-(14, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen');
+(1, 'Nota', '1111111111', 'password', 'nota.png', 'group', 0, 0, 99, 'Senior Citizen');
 
 --
 -- Triggers `votedata`
